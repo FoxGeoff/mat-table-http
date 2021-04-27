@@ -2,26 +2,24 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
 
-## Development server
+## Kanban Task: Setup Project
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+1. Add. Angular Material
+2. HOW TO FIX ERROR: <https://www.thecodebuzz.com/angular-null-injector-error-no-provider-for-httpclient/>
 
-## Code scaffolding
+```TypeScript
+/**
+ * Ref https://www.thecodebuzz.com/angular-null-injector-error-no-provider-for-httpclient/
+ */
+ERROR NullInjectorError: R3InjectorError(AppModule)[HttpClient -> HttpClient -> HttpClient]: 
+  NullInjectorError: No provider for HttpClient!
+    Angular 9
+    TableHttpExampleComponent_Factory table-http-example.component.ts:16
+    Angular 5
+    AppComponent_Template app.component.html:1
+    Angular 20
+core.js:6210
+    Angular 1
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. REMEMBER TO RESTART SEVER AFTER ADDING MATERIAL MODULE
