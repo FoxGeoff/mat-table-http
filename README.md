@@ -35,3 +35,4 @@ ERROR Error: NG0100: ExpressionChangedAfterItHasBeenCheckedError: Expression has
 ```
 
 1. Ref. <https://stackoverflow.com/questions/43375532/expressionchangedafterithasbeencheckederror-explained>
+2. Ref. <https://hackernoon.com/everything-you-need-to-know-about-the-expressionchangedafterithasbeencheckederror-error-e3fd9ce7dbb4>
