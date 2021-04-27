@@ -1,8 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MatPaginator, MatPaginatorModule } from '@angular/material/paginator';
-import { MatSort, MatSortModule } from '@angular/material/sort';
-
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner'
+import { MatTableModule } from '@angular/material/table';
 
 
 @NgModule({
@@ -10,11 +11,16 @@ import { MatSort, MatSortModule } from '@angular/material/sort';
   imports: [
     CommonModule,
     MatPaginatorModule,
-    MatSortModule
+    MatSortModule,
+    MatProgressSpinnerModule,
+    MatTableModule
+
   ],
   exports: [
-    // MatPaginatorModule,
-    // MatSortModule
+    MatPaginatorModule,
+    MatSortModule,
+    MatProgressSpinnerModule,
+    MatTableModule
   ]
 })
 export class MaterialModule { }

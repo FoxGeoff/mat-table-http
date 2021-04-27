@@ -2,6 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
 
+## Intoduction
+
+1. This project illustrates the use of the Material Table with a common/http data source
+
 ## Kanban Task: Setup Project
 
 1. Add. Angular Material
@@ -23,3 +27,11 @@ core.js:6210
 ```
 
 1. REMEMBER TO RESTART SEVER AFTER ADDING MATERIAL MODULE
+
+### Task: FIx Error
+
+```Typescript
+ERROR Error: NG0100: ExpressionChangedAfterItHasBeenCheckedError: Expression has changed after it was checked. Previous value: 'undefined'. Current value: '[object Object]'.. Find more at https://angular.io/errors/NG0100
+```
+
+1. Ref. <https://stackoverflow.com/questions/43375532/expressionchangedafterithasbeencheckederror-explained>
