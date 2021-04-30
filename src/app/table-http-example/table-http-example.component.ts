@@ -78,10 +78,13 @@ export interface GithubIssue {
 export class ExampleHttpDatabase {
   constructor(private _httpClient: HttpClient) {}
 
+  //example: https://api.github.com/search/issues?q=repo:angular/components&sort=created&order=desc&page=1
   getRepoIssues(sort: string, order: string, page: number): Observable<GithubApi> {
     const href = 'https://api.github.com/search/issues';
     const requestUrl =
         `${href}?q=repo:angular/components&sort=${sort}&order=${order}&page=${page + 1}`;
+
+    console.log(requestUrl)
 
     return this._httpClient.get<GithubApi>(requestUrl);
   }
