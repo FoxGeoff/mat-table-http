@@ -31,7 +31,7 @@ core.js:6210
 
 ### Task: FIx Error
 
-```Typescript
+```TypeScript
 ERROR Error: NG0100: ExpressionChangedAfterItHasBeenCheckedError: Expression has changed after it was checked. Previous value: 'undefined'. Current value: '[object Object]'.. Find more at https://angular.io/errors/NG0100
 ```
 
